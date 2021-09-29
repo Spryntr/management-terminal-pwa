@@ -1,14 +1,15 @@
 <template>
   <div class="wrap">
-      <Splash/>
+      <Splash splash="Group1"/>
   </div>
 </template>
 
 <script>
+import Splash from '../components/splash.vue'
 export default {
 name: 'Login',
 components:{
-    Splash: ()=> import('../components/splash.vue')
+   Splash
 }
 }
 </script>
