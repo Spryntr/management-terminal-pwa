@@ -5,6 +5,16 @@ const routes = [
     path: '/',
     name: 'Login',
     component: ()=> import('../views/login.vue')
+  },
+  {
+    path: '/login/manager',
+    name:'Login Manager',
+    component: ()=> import('../views/login_manager.vue')
+  },
+  {
+    path: '/login/cashier',
+    name:'Login Cashier',
+    component: ()=> import('../views/login_cashier.vue')
   }
 ]
 
