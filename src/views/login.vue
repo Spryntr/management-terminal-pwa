@@ -1,16 +1,21 @@
 <template>
       <splash splash="Group1" header_text="Log In" footer="Don’t have an account?" footer_high="Sign Up" >
              <div class="btn">
-               <button>
+               <router-link :to="{name: 'Login Manager'}">
+                  <button class="btn1">
                      <div class="img"> <img src="../assets/icons/manager_vector.svg"></div>
                      <div class="btntext">Manager</div>
                </button>
-               <button>
+               </router-link>
+              <router-link tag="li" :to="{name: 'Login Cashier'}">
+                <button class="btn2">
                    <div class="img"><img src="../assets/icons/cashier_vector.svg"></div>
                     <div class="btntext">
                      Cashier
                    </div>
                    </button>
+              </router-link>
+               
              </div>
       </splash>
 </template>
@@ -25,8 +30,8 @@ components:{
 </script>
 
 <style lang="scss" scoped>
-      .btn{
-        margin: 20% 0px;
+   .btn{
+         margin: 20% 0px;
         button{
           border-radius:12px;
           width:40%;
@@ -43,20 +48,17 @@ components:{
               width: 100%;
             }
           }
-          &:nth-child(1){
-            background: #ab0519;
-            color: white;
-            
-          }
-          &:nth-child(2){
-            border: 2px solid #ab0519;
-            color: #ab0519;
-            
-            .img{
-              width: 25px;
-            }
-          }
+        }
+        .btn1{
+          background: #ab0519;
+          color: white;
+        } 
+       .btn2{
+         border: 2px solid #ab0519;
+         color: #ab0519;    
+        .img{
+         width: 25px;
         }
       }
-
+   }
 </style>
