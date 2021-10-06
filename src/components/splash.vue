@@ -1,5 +1,5 @@
 <template>
-<div class="wrap">
+<div class="wrap_splash">
        <div class="logo image_small">
           <img src="@/assets/logo.svg" alt="">
        </div>
@@ -29,7 +29,7 @@ props:['splash', 'header_text', 'footer', 'footer_high']
 </script>
 
 <style lang="scss" >
- .wrap{
+ .wrap_splash{
      width:60%;
      position: absolute;
      bottom: 0px;
@@ -64,6 +64,7 @@ props:['splash', 'header_text', 'footer', 'footer_high']
       h2{
         font-weight: bold;
        font-size: 1.5em;
+       word-spacing: 2px;
        margin:20px 0px;
       }
     }

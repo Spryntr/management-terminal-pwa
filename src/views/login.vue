@@ -38,7 +38,7 @@ components:{
           display: flex;
           font-size: 1.2em;
           align-items: center;
-          font-weight: bold;
+          font-weight: 700;
           margin:33px auto;
           justify-content: space-around;
           padding:15px 25px;
