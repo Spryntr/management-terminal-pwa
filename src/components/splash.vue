@@ -12,7 +12,9 @@
 <div class="choose auth">
            <div class="enter">
                <h2>{{header_text}}</h2>
-               <slot></slot>
+               <div class="form w-1/2 mx-auto mt-20">
+                <slot></slot>
+               </div>
            </div>
            <div class="signup">
                <p>{{footer}} <span class="highlight">{{footer_high}}</span></p>

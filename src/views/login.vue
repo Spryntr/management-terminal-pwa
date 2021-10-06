@@ -34,7 +34,7 @@ components:{
          margin: 15% 0px;
         button{
           border-radius:12px;
-          width:40%;
+          width:90%;
           display: flex;
           font-size: 1.2em;
           align-items: center;
