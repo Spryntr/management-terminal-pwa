@@ -31,7 +31,7 @@ components:{
 
 <style lang="scss" scoped>
    .btn{
-         margin: 20% 0px;
+         margin: 15% 0px;
         button{
           border-radius:12px;
           width:40%;

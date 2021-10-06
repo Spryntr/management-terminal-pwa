@@ -5,18 +5,16 @@
       footer="Forgotten Password?"
       footer_high="Reset"
       >
-      <div class="form w-1/2 mx-auto my-3">
-          <div class="input my-3">
-              <Input :label="mail" type="text"/>
-          </div>
-          <div class="input my-3">
+      <div class="form w-1/2 mx-auto mt-20">
+          
+         <Input :label="mail" type="text"/>
            <Input :label="pass" type="password" />
-          </div>
+
           <div class="submit mt-2">
             <Button innerText="Sign in"/>
           </div>
-          
       </div>
+
       </splash>
       <div class="choose auth">
       </div>

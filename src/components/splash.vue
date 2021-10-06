@@ -63,13 +63,14 @@ props:['splash', 'header_text', 'footer', 'footer_high']
       padding: 15% 0px;
       h2{
         font-weight: bold;
-       font-size: 1.5em;
+       font-size: 1.7em;
        word-spacing: 2px;
        margin:20px 0px;
       }
     }
 }
 .signup{
+  margin:20px 0px;
   p{
     font-weight: 700;
     word-spacing: 2px;
