@@ -15,6 +15,11 @@ const routes = [
     path: '/login/cashier',
     name:'Login Cashier',
     component: ()=> import('../views/login_cashier.vue')
+  },
+  {
+    path: '/signup/cashier',
+    name: 'Signup Cashier',
+    component: ()=> import('../views/signup_cashier.vue')
   }
 ]
 

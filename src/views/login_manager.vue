@@ -7,8 +7,8 @@
       >
       
           
-         <Input :label="mail" type="text"/>
-           <Input :label="pass" type="password" />
+         <Input label="Email/Phone" type="text"/>
+           <Input label="Password" type="password" />
 
           <div class="submit mt-2">
             <Button innerText="Sign in"/>
@@ -26,13 +26,6 @@ import Button from '../components/submit_btn.vue'
 export default {
  name: 'Login_manager',
  components: {Splash, Button, Input}
-,
- data(){
-     return {
-         mail: "Email/Phone",
-         pass: "Password"
-     }
- }
 }
 </script>
 
