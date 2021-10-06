@@ -1,5 +1,5 @@
 <template>
-    <button class="bg-firebrick rounded-md text-white px-5 w-1/2 py-3">
+    <button class="bg-firebrick mx-auto rounded-md text-white px-5 w-full py-3">
         {{innerText}}
     </button>
 </template>

@@ -5,8 +5,13 @@
       footer="Forgotten Password?"
       footer_high="Reset"
       >
-      <div class="form">
-          <Input/>
+      <div class="form w-1/2 mx-auto my-3">
+          <div class="input my-3">
+              <Input :label="mail" type="text"/>
+          </div>
+          <div class="input my-3">
+           <Input :label="pass" type="password" />
+          </div>
           <div class="submit mt-2">
             <Button innerText="Sign in"/>
           </div>
@@ -24,6 +29,13 @@ import Button from '../components/submit_btn.vue'
 export default {
  name: 'Login_manager',
  components: {Splash, Button, Input}
+,
+ data(){
+     return {
+         mail: "Email/Phone",
+         pass: "Password"
+     }
+ }
 }
 </script>
 
